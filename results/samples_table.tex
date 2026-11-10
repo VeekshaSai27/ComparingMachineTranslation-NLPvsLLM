@@ -1,0 +1,24 @@
+\begin{longtable}{p{0.22\linewidth}p{0.72\linewidth}}
+\toprule
+\textbf{Source 1} & Hey, man. \\
+Reference & {\hindifont अरे , यार .} \\
+Seq2Seq GRU & {\hindifont हाँ , आदमी .} \\
+\midrule
+\textbf{Source 2} & Is there anything you can tell us about what may have happened last night? \\
+Reference & {\hindifont वहाँ तुम्हें कुछ के बारे में हमें बता सकते है कल रात क्या हुआ होगा ?} \\
+Seq2Seq GRU & {\hindifont क्या तुम लोग हमारे बारे में क्या हो गया है कि तुम लोग हो ?} \\
+\midrule
+\textbf{Source 3} & The \%1 command only accepts a string as its parameter. \\
+Reference & {\hindifont कमांड 1 सिर्फ एक वाक्यांश को पैरामीटर के रूप में स्वीकारता है .} \\
+Seq2Seq GRU & {\hindifont . . .} \\
+\midrule
+\textbf{Source 4} & , current job \%1 at sentence \%2 of \%3 sentences \\
+Reference & {\hindifont , 3 वाक्य में से 2 वाक्य पर वर्तमान कार्य 1 पर} \\
+Seq2Seq GRU & {\hindifont 1 2 3 2 3 3 2 3 3} \\
+\midrule
+\textbf{Source 5} & For XEmacs use "xemacs" For Vim use "gvim -f" \\
+Reference & {\hindifont प्रयोग करें प्रयोग करें} \\
+Seq2Seq GRU & {\hindifont के के लिए} \\
+\midrule
+\bottomrule
+\end{longtable}

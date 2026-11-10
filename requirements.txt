@@ -1,0 +1,7 @@
+datasets
+sacrebleu
+matplotlib
+spacy
+transformers
+sentencepiece
+google-genai
